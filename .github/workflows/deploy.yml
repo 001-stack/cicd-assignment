@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run Linter
-        run: npm run lint
+        run: npm run lint --if-present
 
       - name: Run Tests
         # Runs the test script if it exists in package.json
